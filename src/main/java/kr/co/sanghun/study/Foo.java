@@ -26,6 +26,7 @@ public class Foo {
         };
 
         Function<Integer, Integer> multiply2 = (i) -> i * 2;
+
         UnaryOperator<Integer> plus10 = (i) -> i + 10;
 
         plus10.compose(multiply2);
